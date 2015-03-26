@@ -10,6 +10,10 @@ Use this instead in your bower.json
         "forge-min": "git@github.com:samartioli/forge-min.git#0.6.21"
     },
 
+Then
+
+    bower install
+
 See this issue: <https://github.com/digitalbazaar/forge/issues/229>
 
 I probably won't be keeping this up to date with forge releases, so feel free to submit pull requests:
@@ -20,6 +24,7 @@ I probably won't be keeping this up to date with forge releases, so feel free to
     cp js/forge.min.js [path/to/forge-min]/forge.min.js
     cd [path/to/forge-min]
     git checkout -b [version]
+    # update version in bower.json
     git push origin [version]
 
 Then send pull request

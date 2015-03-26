@@ -1,0 +1,18 @@
+{
+    "name": "forge-min",
+    "version": "0.6.21",
+    "main": "forge.min.js",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/samartioli/forge-min.git"
+    },
+    "homepage": "https://github.com/samartioli/forge-min",
+    "description": "Minified Version of Forge",
+    "keywords": [
+        "forge",
+        "crypto",
+        "cryptojs"
+    ],
+    "license": "MIT",
+    "ignore": []
+}
