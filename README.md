@@ -7,7 +7,7 @@ Why? Because forge has a bower component, but it relies on AMD to dynamically lo
 Use this instead in your bower.json
 
     "dependencies": {
-        "forge-min": git@github.com:samartioli/forge-min.git#0.6.21
+        "forge-min": "git@github.com:samartioli/forge-min.git#0.6.21"
     },
 
 See this issue: <https://github.com/digitalbazaar/forge/issues/229>
