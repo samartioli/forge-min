@@ -12,5 +12,14 @@ Use this instead in your bower.json
 
 See this issue: <https://github.com/digitalbazaar/forge/issues/229>
 
-I probably won't be keeping this up to date with forge releases, so feel free to submit pull requests.
+I probably won't be keeping this up to date with forge releases, so feel free to submit pull requests:
 
+    git clone git@github.com:digitalbazaar/forge.git
+    cd forge
+    git checkout [version]
+    cp js/forge.min.js [path/to/forge-min]/forge.min.js
+    cd [path/to/forge-min]
+    git checkout -b [version]
+    git push origin [version]
+
+Then send pull request
